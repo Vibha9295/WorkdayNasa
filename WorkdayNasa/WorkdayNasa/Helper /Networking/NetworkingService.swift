@@ -9,6 +9,7 @@ class NetworkingService {
         var urlComponents = URLComponents(url: baseURL.appendingPathComponent(WebServiceParameter.paramSearch), resolvingAgainstBaseURL: true)
         urlComponents?.queryItems = [
             URLQueryItem(name: "q", value: query),
+            URLQueryItem(name: "media_type", value: "image"),
             URLQueryItem(name: WebServiceParameter.paramPage, value: page)
         ]
         
@@ -31,7 +32,7 @@ class NetworkingService {
                 do {
                     let decoder = JSONDecoder()
                     let searchData = try decoder.decode(NasaCollectionModel.self, from: data)
-                    completion(.success(searchData.collection!))
+                    completion(.success(searchData.collection as AnyObject as! Collection))
                 } catch {
                     completion(.failure(error))
                 }

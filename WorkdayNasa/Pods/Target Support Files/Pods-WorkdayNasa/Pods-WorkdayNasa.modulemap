@@ -1,0 +1,6 @@
+framework module Pods_WorkdayNasa {
+  umbrella header "Pods-WorkdayNasa-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,12 +1,12 @@
 
 import UIKit
-
+import FLAnimatedImage
 class DashboardVC: UIViewController {
     
     //MARK: - Outlets
     
-    @IBOutlet weak var imgBackground: UIImageView!
-    @IBOutlet weak var imgNASAlogo: UIImageView!
+    @IBOutlet weak var vwBackground: UIView!
+    @IBOutlet weak var vwLogoGIF: UIView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var cvSearchList: UICollectionView!
     
@@ -24,8 +24,33 @@ class DashboardVC: UIViewController {
     
     //MARK: - Initialization
     func initialization(){
-        imgNASAlogo.image = UIImage.gifImageWithName("nasaGif")
-        imgBackground.image = UIImage.gifImageWithName("Background")
+        let gif = FLAnimatedImageView()
+        gif.contentMode = .scaleAspectFit
+        gif.frame = CGRect(x: 0, y: 0, width: 70, height: 70)
+        if let path = Bundle.main.path(forResource: "nasaLogo", ofType: "gif"){
+            if let gifData = NSData(contentsOfFile: path){
+            let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
+                gif.animatedImage = animatedImage
+            }
+                
+        }
+        vwLogoGIF.addSubview(gif)
+        
+
+        let gifBackground = FLAnimatedImageView()
+        gifBackground.contentMode = .scaleAspectFit
+        
+        gifBackground.frame = UIScreen.main.bounds
+        if let path = Bundle.main.path(forResource: "Background", ofType: "gif"){
+            if let gifData = NSData(contentsOfFile: path){
+            let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
+                gifBackground.animatedImage = animatedImage
+            }
+                
+        }
+        vwBackground.addSubview(gifBackground)
+       // imgNASAlogo.image = UIImage.gifImageWithName("nasaGif")
+        //imgBackground.image = UIImage.gifImageWithName("Background")
         viewModel = DashboardViewModel(networkService: NetworkingService())
         
         // Bind the collection view to the search results
@@ -92,7 +117,7 @@ extension DashboardVC: UICollectionViewDelegateFlowLayout, UICollectionViewDataS
         return CGSize(width: collectionViewSize/2, height: collectionViewSize/2)
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {        
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = self.cvSearchList.cellForItem(at: indexPath) as! SearchCVCell
         
         self.objDetailVC = self.storyboard?.instantiateViewController(withIdentifier: "DetailVC") as? DetailVC

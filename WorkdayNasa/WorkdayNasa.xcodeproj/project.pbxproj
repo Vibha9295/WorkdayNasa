@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04080AEC2A5BCD8100A05CCA /* nasaGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04080AEB2A5BCD8100A05CCA /* nasaGif.gif */; };
 		04080AEF2A5BCE5600A05CCA /* Image+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04080AEE2A5BCE5600A05CCA /* Image+Gif.swift */; };
 		04080AF32A5BD4A400A05CCA /* Background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04080AF22A5BD4A400A05CCA /* Background.gif */; };
 		041391052A5A242900B353CF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041391042A5A242900B353CF /* NetworkError.swift */; };
 		0413916C2A5A5A4800B353CF /* SearchCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413916A2A5A5A4800B353CF /* SearchCVCell.swift */; };
 		0413916D2A5A5A4800B353CF /* SearchCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413916B2A5A5A4800B353CF /* SearchCVCell.xib */; };
 		041391952A5A7D0700B353CF /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041391942A5A7D0700B353CF /* Binding.swift */; };
+		04ACA34D2A5DBB97004837F9 /* nasaLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04ACA34C2A5DBB97004837F9 /* nasaLogo.gif */; };
 		04ACD2222A5B37600015419E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2212A5B37600015419E /* DetailVC.swift */; };
 		04C13BA52A59E4DE009CF484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13BA42A59E4DE009CF484 /* AppDelegate.swift */; };
 		04C13BA72A59E4DE009CF484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13BA62A59E4DE009CF484 /* SceneDelegate.swift */; };
@@ -26,16 +26,17 @@
 		04C13BCA2A59EFA1009CF484 /* NasaCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13BC92A59EFA1009CF484 /* NasaCollectionModel.swift */; };
 		04D2DDB62A5C4C1A00BEF528 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2DDB52A5C4C1A00BEF528 /* UIViewExtension.swift */; };
 		04D2DDBC2A5C5F6400BEF528 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2DDBB2A5C5F6400BEF528 /* Constants.swift */; };
+		7B258E66E8236180184E4C72 /* Pods_WorkdayNasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6A11B2C34B1C944ADED55 /* Pods_WorkdayNasa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04080AEB2A5BCD8100A05CCA /* nasaGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nasaGif.gif; sourceTree = "<group>"; };
 		04080AEE2A5BCE5600A05CCA /* Image+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Gif.swift"; sourceTree = "<group>"; };
 		04080AF22A5BD4A400A05CCA /* Background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Background.gif; sourceTree = "<group>"; };
 		041391042A5A242900B353CF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0413916A2A5A5A4800B353CF /* SearchCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCVCell.swift; sourceTree = "<group>"; };
 		0413916B2A5A5A4800B353CF /* SearchCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCVCell.xib; sourceTree = "<group>"; };
 		041391942A5A7D0700B353CF /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		04ACA34C2A5DBB97004837F9 /* nasaLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nasaLogo.gif; sourceTree = "<group>"; };
 		04ACD2212A5B37600015419E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		04C13BA12A59E4DE009CF484 /* WorkdayNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkdayNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C13BA42A59E4DE009CF484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +51,9 @@
 		04C13BC92A59EFA1009CF484 /* NasaCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaCollectionModel.swift; sourceTree = "<group>"; };
 		04D2DDB52A5C4C1A00BEF528 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		04D2DDBB2A5C5F6400BEF528 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8001429CF478C3C4CAB9F465 /* Pods-WorkdayNasa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayNasa.release.xcconfig"; path = "Target Support Files/Pods-WorkdayNasa/Pods-WorkdayNasa.release.xcconfig"; sourceTree = "<group>"; };
+		8ED6A11B2C34B1C944ADED55 /* Pods_WorkdayNasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkdayNasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9839842F50864013D1149F5E /* Pods-WorkdayNasa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkdayNasa.debug.xcconfig"; path = "Target Support Files/Pods-WorkdayNasa/Pods-WorkdayNasa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B258E66E8236180184E4C72 /* Pods_WorkdayNasa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				04080AF22A5BD4A400A05CCA /* Background.gif */,
-				04080AEB2A5BCD8100A05CCA /* nasaGif.gif */,
+				04ACA34C2A5DBB97004837F9 /* nasaLogo.gif */,
 			);
 			path = GIF;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				04C13BA32A59E4DE009CF484 /* WorkdayNasa */,
 				04C13BA22A59E4DE009CF484 /* Products */,
 				A1171E1857F6008C969864F1 /* Frameworks */,
+				A84739C520E093B4037C1027 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,8 +236,18 @@
 		A1171E1857F6008C969864F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ED6A11B2C34B1C944ADED55 /* Pods_WorkdayNasa.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A84739C520E093B4037C1027 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9839842F50864013D1149F5E /* Pods-WorkdayNasa.debug.xcconfig */,
+				8001429CF478C3C4CAB9F465 /* Pods-WorkdayNasa.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C13BB52A59E4E0009CF484 /* Build configuration list for PBXNativeTarget "WorkdayNasa" */;
 			buildPhases = (
+				59C2CD1FB6D6E38F34514F2B /* [CP] Check Pods Manifest.lock */,
 				04C13B9D2A59E4DE009CF484 /* Sources */,
 				04C13B9E2A59E4DE009CF484 /* Frameworks */,
 				04C13B9F2A59E4DE009CF484 /* Resources */,
+				047EB9FCB7B74183928BAE8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,15 +310,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C13BB12A59E4E0009CF484 /* LaunchScreen.storyboard in Resources */,
-				04080AEC2A5BCD8100A05CCA /* nasaGif.gif in Resources */,
 				04080AF32A5BD4A400A05CCA /* Background.gif in Resources */,
 				04C13BAE2A59E4E0009CF484 /* Assets.xcassets in Resources */,
+				04ACA34D2A5DBB97004837F9 /* nasaLogo.gif in Resources */,
 				04C13BAC2A59E4DE009CF484 /* Main.storyboard in Resources */,
 				0413916D2A5A5A4800B353CF /* SearchCVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047EB9FCB7B74183928BAE8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkdayNasa/Pods-WorkdayNasa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkdayNasa/Pods-WorkdayNasa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkdayNasa/Pods-WorkdayNasa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C2CD1FB6D6E38F34514F2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkdayNasa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04C13B9D2A59E4DE009CF484 /* Sources */ = {
@@ -463,6 +523,7 @@
 		};
 		04C13BB62A59E4E0009CF484 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9839842F50864013D1149F5E /* Pods-WorkdayNasa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,6 +542,7 @@
 		};
 		04C13BB72A59E4E0009CF484 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8001429CF478C3C4CAB9F465 /* Pods-WorkdayNasa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
