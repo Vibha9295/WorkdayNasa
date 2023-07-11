@@ -49,8 +49,6 @@ class DashboardVC: UIViewController {
                 
         }
         vwBackground.addSubview(gifBackground)
-       // imgNASAlogo.image = UIImage.gifImageWithName("nasaGif")
-        //imgBackground.image = UIImage.gifImageWithName("Background")
         viewModel = DashboardViewModel(networkService: NetworkingService())
         
         // Bind the collection view to the search results

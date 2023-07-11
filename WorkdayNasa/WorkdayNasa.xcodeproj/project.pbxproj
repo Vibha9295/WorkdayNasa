@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04080AEF2A5BCE5600A05CCA /* Image+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04080AEE2A5BCE5600A05CCA /* Image+Gif.swift */; };
 		04080AF32A5BD4A400A05CCA /* Background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04080AF22A5BD4A400A05CCA /* Background.gif */; };
 		041391052A5A242900B353CF /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041391042A5A242900B353CF /* NetworkError.swift */; };
 		0413916C2A5A5A4800B353CF /* SearchCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413916A2A5A5A4800B353CF /* SearchCVCell.swift */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04080AEE2A5BCE5600A05CCA /* Image+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+Gif.swift"; sourceTree = "<group>"; };
 		04080AF22A5BD4A400A05CCA /* Background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Background.gif; sourceTree = "<group>"; };
 		041391042A5A242900B353CF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0413916A2A5A5A4800B353CF /* SearchCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCVCell.swift; sourceTree = "<group>"; };
@@ -190,7 +188,6 @@
 		04D2DDB82A5C4C4400BEF528 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				04080AEE2A5BCE5600A05CCA /* Image+Gif.swift */,
 				04D2DDB52A5C4C1A00BEF528 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
@@ -369,7 +366,6 @@
 			files = (
 				04C13BBD2A59E64A009CF484 /* DashboardVC.swift in Sources */,
 				041391052A5A242900B353CF /* NetworkError.swift in Sources */,
-				04080AEF2A5BCE5600A05CCA /* Image+Gif.swift in Sources */,
 				04ACD2222A5B37600015419E /* DetailVC.swift in Sources */,
 				04C13BC42A59EE68009CF484 /* DashboardViewModel.swift in Sources */,
 				04C13BCA2A59EFA1009CF484 /* NasaCollectionModel.swift in Sources */,
