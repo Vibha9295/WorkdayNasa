@@ -23,9 +23,10 @@ class SearchCVCell: UICollectionViewCell {
             
         }
     }
+    
     override func awakeFromNib() {
         self.layer.masksToBounds = true
         super.awakeFromNib()
     }
-    
+
 }

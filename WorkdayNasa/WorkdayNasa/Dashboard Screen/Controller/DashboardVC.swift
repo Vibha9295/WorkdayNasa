@@ -12,7 +12,7 @@ class DashboardVC: UIViewController {
     
     //MARK: - Variable Declaration
     
-    private var objDetailVC: DetailVC?
+    private weak var objDetailVC: DetailVC?
     private var viewModel: DashboardViewModel!
     static internal let reuseIdentifier = "SearchCVCell"
     
@@ -69,6 +69,10 @@ class DashboardVC: UIViewController {
             viewModel.currentPage += 1
             viewModel.searchImages(withQuery: searchBar.text ?? "")
         }
+    }
+    deinit {
+        
+        print("deinit") // gets called
     }
 }
 

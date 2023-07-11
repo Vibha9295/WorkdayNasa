@@ -24,5 +24,8 @@ class DetailVC: UIViewController {
         lblDescription.text = detail.data?.first?.description ?? ""
         lblCreatedAt.text = detail.data?.first?.date_created ?? ""
     }
-    
+    deinit {
+        
+            print("deinit") // gets called
+        }
 }
