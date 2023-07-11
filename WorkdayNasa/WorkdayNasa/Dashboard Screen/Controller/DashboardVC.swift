@@ -14,6 +14,7 @@ class DashboardVC: UIViewController {
     
     private var objDetailVC: DetailVC?
     private var viewModel: DashboardViewModel!
+    static internal let reuseIdentifier = "SearchCVCell"
     
     //MARK: - Default Methods
     
@@ -24,31 +25,7 @@ class DashboardVC: UIViewController {
     
     //MARK: - Initialization
     func initialization(){
-        let gif = FLAnimatedImageView()
-        gif.contentMode = .scaleAspectFit
-        gif.frame = CGRect(x: 0, y: 0, width: 70, height: 70)
-        if let path = Bundle.main.path(forResource: "nasaLogo", ofType: "gif"){
-            if let gifData = NSData(contentsOfFile: path){
-            let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
-                gif.animatedImage = animatedImage
-            }
-                
-        }
-        vwLogoGIF.addSubview(gif)
-        
-
-        let gifBackground = FLAnimatedImageView()
-        gifBackground.contentMode = .scaleAspectFit
-        
-        gifBackground.frame = UIScreen.main.bounds
-        if let path = Bundle.main.path(forResource: "Background", ofType: "gif"){
-            if let gifData = NSData(contentsOfFile: path){
-            let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
-                gifBackground.animatedImage = animatedImage
-            }
-                
-        }
-        vwBackground.addSubview(gifBackground)
+        self.loadGIF()
         viewModel = DashboardViewModel(networkService: NetworkingService())
         
         // Bind the collection view to the search results
@@ -58,7 +35,32 @@ class DashboardVC: UIViewController {
             }
         }
         
-        self.cvSearchList?.register(UINib(nibName: "SearchCVCell", bundle: nil), forCellWithReuseIdentifier: "SearchCVCell")
+        self.cvSearchList?.register(UINib(nibName: DashboardVC.reuseIdentifier, bundle: nil), forCellWithReuseIdentifier: DashboardVC.reuseIdentifier)
+    }
+    
+    func loadGIF(){
+        let gif = FLAnimatedImageView()
+        gif.contentMode = .scaleAspectFit
+        gif.frame = CGRect(x: 0, y: 0, width: 70, height: 70)
+        if let path = Bundle.main.path(forResource: "nasaLogo", ofType: "gif"){
+            if let gifData = NSData(contentsOfFile: path){
+                let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
+                gif.animatedImage = animatedImage
+            }
+            
+        }
+        vwLogoGIF.addSubview(gif)
+        
+        let gifBackground = FLAnimatedImageView()
+        gifBackground.contentMode = .scaleAspectFit
+        gifBackground.frame = UIScreen.main.bounds
+        if let path = Bundle.main.path(forResource: "Background", ofType: "gif"){
+            if let gifData = NSData(contentsOfFile: path){
+                let animatedImage = FLAnimatedImage(animatedGIFData: gifData as Data)
+                gifBackground.animatedImage = animatedImage
+            }
+        }
+        vwBackground.addSubview(gifBackground)
     }
     //MARK: - Load more data methods
     
@@ -66,7 +68,6 @@ class DashboardVC: UIViewController {
         if viewModel.currentPage < viewModel.totalHits {
             viewModel.currentPage += 1
             viewModel.searchImages(withQuery: searchBar.text ?? "")
-            
         }
     }
 }
@@ -88,7 +89,7 @@ extension DashboardVC: UICollectionViewDelegateFlowLayout, UICollectionViewDataS
         return viewModel.searchResults.value.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SearchCVCell", for: indexPath) as? SearchCVCell else {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DashboardVC.reuseIdentifier, for: indexPath) as? SearchCVCell else {
             return UICollectionViewCell()
         }
         
