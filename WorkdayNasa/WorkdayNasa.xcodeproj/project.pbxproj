@@ -12,6 +12,8 @@
 		0413916C2A5A5A4800B353CF /* SearchCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413916A2A5A5A4800B353CF /* SearchCVCell.swift */; };
 		0413916D2A5A5A4800B353CF /* SearchCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413916B2A5A5A4800B353CF /* SearchCVCell.xib */; };
 		041391952A5A7D0700B353CF /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041391942A5A7D0700B353CF /* Binding.swift */; };
+		046A4C6C2A5DD925004793BC /* WorkdayNasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A4C6B2A5DD925004793BC /* WorkdayNasaTests.swift */; };
+		046A4CD22A5DF1BC004793BC /* WorkdayNasaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A4CD12A5DF1BC004793BC /* WorkdayNasaUITests.swift */; };
 		04ACA34D2A5DBB97004837F9 /* nasaLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04ACA34C2A5DBB97004837F9 /* nasaLogo.gif */; };
 		04ACD2222A5B37600015419E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2212A5B37600015419E /* DetailVC.swift */; };
 		04C13BA52A59E4DE009CF484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13BA42A59E4DE009CF484 /* AppDelegate.swift */; };
@@ -28,12 +30,35 @@
 		7B258E66E8236180184E4C72 /* Pods_WorkdayNasa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED6A11B2C34B1C944ADED55 /* Pods_WorkdayNasa.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		046A4C6E2A5DD925004793BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C13B992A59E4DE009CF484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C13BA02A59E4DE009CF484;
+			remoteInfo = WorkdayNasa;
+		};
+		046A4CD42A5DF1BC004793BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C13B992A59E4DE009CF484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C13BA02A59E4DE009CF484;
+			remoteInfo = WorkdayNasa;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		04080AF22A5BD4A400A05CCA /* Background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Background.gif; sourceTree = "<group>"; };
 		041391042A5A242900B353CF /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0413916A2A5A5A4800B353CF /* SearchCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCVCell.swift; sourceTree = "<group>"; };
 		0413916B2A5A5A4800B353CF /* SearchCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCVCell.xib; sourceTree = "<group>"; };
 		041391942A5A7D0700B353CF /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		046A4C692A5DD924004793BC /* WorkdayNasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkdayNasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A4C6B2A5DD925004793BC /* WorkdayNasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdayNasaTests.swift; sourceTree = "<group>"; };
+		046A4C6D2A5DD925004793BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046A4CCF2A5DF1BC004793BC /* WorkdayNasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkdayNasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A4CD12A5DF1BC004793BC /* WorkdayNasaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkdayNasaUITests.swift; sourceTree = "<group>"; };
+		046A4CD32A5DF1BC004793BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04ACA34C2A5DBB97004837F9 /* nasaLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nasaLogo.gif; sourceTree = "<group>"; };
 		04ACD2212A5B37600015419E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		04C13BA12A59E4DE009CF484 /* WorkdayNasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkdayNasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +80,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		046A4C662A5DD924004793BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A4CCC2A5DF1BC004793BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C13B9E2A59E4DE009CF484 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +174,24 @@
 			path = Binding;
 			sourceTree = "<group>";
 		};
+		046A4C6A2A5DD924004793BC /* WorkdayNasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				046A4C6B2A5DD925004793BC /* WorkdayNasaTests.swift */,
+				046A4C6D2A5DD925004793BC /* Info.plist */,
+			);
+			path = WorkdayNasaTests;
+			sourceTree = "<group>";
+		};
+		046A4CD02A5DF1BC004793BC /* WorkdayNasaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046A4CD12A5DF1BC004793BC /* WorkdayNasaUITests.swift */,
+				046A4CD32A5DF1BC004793BC /* Info.plist */,
+			);
+			path = WorkdayNasaUITests;
+			sourceTree = "<group>";
+		};
 		04ACD21F2A5B372F0015419E /* Dashboard Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				04C13BA32A59E4DE009CF484 /* WorkdayNasa */,
+				046A4C6A2A5DD924004793BC /* WorkdayNasaTests */,
+				046A4CD02A5DF1BC004793BC /* WorkdayNasaUITests */,
 				04C13BA22A59E4DE009CF484 /* Products */,
 				A1171E1857F6008C969864F1 /* Frameworks */,
 				A84739C520E093B4037C1027 /* Pods */,
@@ -167,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				04C13BA12A59E4DE009CF484 /* WorkdayNasa.app */,
+				046A4C692A5DD924004793BC /* WorkdayNasaTests.xctest */,
+				046A4CCF2A5DF1BC004793BC /* WorkdayNasaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +311,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		046A4C682A5DD924004793BC /* WorkdayNasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A4C702A5DD925004793BC /* Build configuration list for PBXNativeTarget "WorkdayNasaTests" */;
+			buildPhases = (
+				046A4C652A5DD924004793BC /* Sources */,
+				046A4C662A5DD924004793BC /* Frameworks */,
+				046A4C672A5DD924004793BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046A4C6F2A5DD925004793BC /* PBXTargetDependency */,
+			);
+			name = WorkdayNasaTests;
+			productName = WorkdayNasaTests;
+			productReference = 046A4C692A5DD924004793BC /* WorkdayNasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046A4CCE2A5DF1BC004793BC /* WorkdayNasaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A4CD62A5DF1BC004793BC /* Build configuration list for PBXNativeTarget "WorkdayNasaUITests" */;
+			buildPhases = (
+				046A4CCB2A5DF1BC004793BC /* Sources */,
+				046A4CCC2A5DF1BC004793BC /* Frameworks */,
+				046A4CCD2A5DF1BC004793BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046A4CD52A5DF1BC004793BC /* PBXTargetDependency */,
+			);
+			name = WorkdayNasaUITests;
+			productName = WorkdayNasaUITests;
+			productReference = 046A4CCF2A5DF1BC004793BC /* WorkdayNasaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		04C13BA02A59E4DE009CF484 /* WorkdayNasa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C13BB52A59E4E0009CF484 /* Build configuration list for PBXNativeTarget "WorkdayNasa" */;
@@ -278,6 +375,14 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					046A4C682A5DD924004793BC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04C13BA02A59E4DE009CF484;
+					};
+					046A4CCE2A5DF1BC004793BC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04C13BA02A59E4DE009CF484;
+					};
 					04C13BA02A59E4DE009CF484 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -297,11 +402,27 @@
 			projectRoot = "";
 			targets = (
 				04C13BA02A59E4DE009CF484 /* WorkdayNasa */,
+				046A4C682A5DD924004793BC /* WorkdayNasaTests */,
+				046A4CCE2A5DF1BC004793BC /* WorkdayNasaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		046A4C672A5DD924004793BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A4CCD2A5DF1BC004793BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C13B9F2A59E4DE009CF484 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,6 +481,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		046A4C652A5DD924004793BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A4C6C2A5DD925004793BC /* WorkdayNasaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A4CCB2A5DF1BC004793BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A4CD22A5DF1BC004793BC /* WorkdayNasaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04C13B9D2A59E4DE009CF484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +518,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		046A4C6F2A5DD925004793BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C13BA02A59E4DE009CF484 /* WorkdayNasa */;
+			targetProxy = 046A4C6E2A5DD925004793BC /* PBXContainerItemProxy */;
+		};
+		046A4CD52A5DF1BC004793BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C13BA02A59E4DE009CF484 /* WorkdayNasa */;
+			targetProxy = 046A4CD42A5DF1BC004793BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		04C13BAA2A59E4DE009CF484 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -401,6 +551,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		046A4C712A5DD925004793BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayNasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorkdayNasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkdayNasa.app/WorkdayNasa";
+			};
+			name = Debug;
+		};
+		046A4C722A5DD925004793BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayNasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorkdayNasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkdayNasa.app/WorkdayNasa";
+			};
+			name = Release;
+		};
+		046A4CD72A5DF1BC004793BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayNasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorkdayNasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkdayNasa;
+			};
+			name = Debug;
+		};
+		046A4CD82A5DF1BC004793BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorkdayNasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.WorkdayNasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkdayNasa;
+			};
+			name = Release;
+		};
 		04C13BB32A59E4E0009CF484 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -558,6 +782,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		046A4C702A5DD925004793BC /* Build configuration list for PBXNativeTarget "WorkdayNasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A4C712A5DD925004793BC /* Debug */,
+				046A4C722A5DD925004793BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046A4CD62A5DF1BC004793BC /* Build configuration list for PBXNativeTarget "WorkdayNasaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A4CD72A5DF1BC004793BC /* Debug */,
+				046A4CD82A5DF1BC004793BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04C13B9C2A59E4DE009CF484 /* Build configuration list for PBXProject "WorkdayNasa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
